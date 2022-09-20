@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+}
+
+.main {
+	text-align: center;
+}
+
+.tables {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+tr:first-child td {
+	border-top-color: black;
+}
+
+tr:nth-child(3n) td {
+	border-bottom-color: black;
+}
+
+td {
+	border: 1px solid lightgrey;
+	height: 40px;
+	width: 40px;
+}
+
+td:first-child {
+	border-left-color: black;
+}
+
+td:nth-child(3n) {
+	border-right-color: black;
+}
+
+.input {
+	padding: 0;
+	text-align: center;
+	border: 0;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	font-weight: bold;
+	color:red;
+}
+
+.input:hover {
+	background: #ffffff;
+}
+
+.input-solved {
+	/* font-weight: normal; */
+	color: green;
+}
+
+.solve {
+
+	cursor: pointer;
+}
+
+.reset {
+	
+	cursor: pointer;
+}
